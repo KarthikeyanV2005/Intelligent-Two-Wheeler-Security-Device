@@ -204,7 +204,7 @@ This allows the user to remotely monitor the surroundings of the bike and the pe
 
 ## Project Image
 
-<img src="images/project-image.jpg" alt="Intelligent Two-Wheeler Security Device" width="600">
+<img src="images/project-image.jpeg" alt="Intelligent Two-Wheeler Security Device" width="600">
 
 ## System Architecture
 

@@ -340,6 +340,7 @@ Check the ESP32-CAM live video stream.
 
 ## 📁 Project Folder Structure
 
+```text
 Intelligent-Two-Wheeler-Security-Device/
 │
 │
@@ -357,3 +358,4 @@ Intelligent-Two-Wheeler-Security-Device/
 │   └── system-architecture.png
 │
 └── README.md
+```

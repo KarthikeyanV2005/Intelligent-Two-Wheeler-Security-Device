@@ -85,6 +85,7 @@ When the user gives permission through the ESP32-CAM web interface, the ESP32-CA
 A physical switch is placed between the motor driver and the motor and acts as the traditional ignition/key mechanism.
 
 Therefore, the motor runs only when both the web permission and physical switch are ON.
+
 ---
 
 ## Hardware Components

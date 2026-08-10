@@ -11,7 +11,7 @@
 // Replace the placeholders with your own Wi-Fi credentials.
 
 const char* ssid = "YOUR_WIFI_NAME";   //Enter SSID WIFI Name
-const char* password = "YOUR_WIFI_NAME";   //Enter WIFI Password
+const char* password = "YOUR_WIFI_PASSWORD";   //Enter WIFI Password
 
 
 #if defined(CAMERA_MODEL_WROVER_KIT)

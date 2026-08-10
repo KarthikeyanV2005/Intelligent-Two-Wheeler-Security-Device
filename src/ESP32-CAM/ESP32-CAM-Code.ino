@@ -4,13 +4,14 @@
 #include <WiFi.h>
  
 
-// Select camera model
-//#define CAMERA_MODEL_WROVER_KIT
-//#define CAMERA_MODEL_M5STACK_PSRAM
+
 #define CAMERA_MODEL_AI_THINKER
 
-const char* ssid = "IOTT";   //Enter SSID WIFI Name
-const char* password = "012345678";   //Enter WIFI Password
+// Wi-Fi credentials are omitted for security purposes.
+// Replace the placeholders with your own Wi-Fi credentials.
+
+const char* ssid = "YOUR_WIFI_NAME";   //Enter SSID WIFI Name
+const char* password = "YOUR_WIFI_NAME";   //Enter WIFI Password
 
 
 #if defined(CAMERA_MODEL_WROVER_KIT)
@@ -56,9 +57,9 @@ const char* password = "012345678";   //Enter WIFI Password
 #error "Camera model not selected"
 #endif
 
-// GPIO Setting
 
-extern int gpLed =  4; // Light
+
+extern int gpLed =  4; // motor
 extern String WiFiAddr ="";
 
 void startCameraServer();
@@ -70,9 +71,9 @@ void setup() {
 
 
 
-  pinMode(gpLed, OUTPUT); //Light
+  pinMode(gpLed, OUTPUT); 
 
-  //initialize
+  
 
   digitalWrite(gpLed, LOW);
 
@@ -108,7 +109,7 @@ void setup() {
     config.fb_count = 1;
   }
 
-  // camera init
+
   esp_err_t err = esp_camera_init(&config);
   if (err != ESP_OK) {
     //Serial.printf("Camera init failed with error 0x%x", err);
@@ -136,6 +137,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
 
 }
